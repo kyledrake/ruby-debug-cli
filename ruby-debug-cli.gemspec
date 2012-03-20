@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
  
 Gem::Specification.new do |s|
-  s.name = %q{ruby-debug19}
-  s.version = "0.11.7"
+  s.name = %q{ruby-debug193}
+  s.version = "0.0.1"
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kent Sibilev", "Mark Moseley"]
   s.date = %q{2009-09-01}
@@ -58,12 +58,11 @@ Gem::Specification.new do |s|
   s.bindir = "bin"
   s.executables = [ "rdebug" ]
   s.required_ruby_version = Gem::Requirement.new(">= 1.8.2")
-  s.rubyforge_project = %q{ruby-debug19}
   s.rubygems_version = %q{1.3.4}
   s.summary = %q{Command line interface (CLI) for ruby-debug-base}
   s.add_dependency("columnize", ">= 0.3.1")
-  s.add_dependency("linecache19", ">= 0.5.11")
-  s.add_dependency("ruby-debug-base19", ">= 0.12.0")
+  s.add_dependency("linecache193", ">= 0.0.1")
+  s.add_dependency("ruby-debug-base193", ">= 0.0.1")
  
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
